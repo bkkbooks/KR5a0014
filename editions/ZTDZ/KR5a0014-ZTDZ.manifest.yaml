@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0014/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0014/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 高上玉皇胎息經
+  date: '2015-08-28 23:34:57.777211'
+  source:
+    repository: kanripo
+    path: KR5a0014
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0014_000-ZTDZ.yaml, hash: 'sha256:5893fe74bb8c72d211cd61fb384e88bb2b98ea6825e1b653c6f1d4a20e2a7b42'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0014_000-ZTDZ.markers.yaml, hash: 'sha256:fe8e6957b8717824401c54fdcec7c7521ec0d9fcb6e19a09268e17c537e0b495'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0014_SJB_000-010748c
+    span:
+    - body
+    - 0
+    - 2310
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c7a3393ecb8fcf804ced346e4779cc26192f311d45a7f5b490e24b77ea91eae6
